@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+td {
+  padding: 10px 20px; /* Aumenta el espacio horizontal */
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  /* Espacio entre elementos */
+  margin-bottom: 5px;
+}
+
+dt {
+  min-width: 150px;
+  /* Ajusta el ancho para alinear los dd */
+}
+
+dd {
+  margin: 0;
+}

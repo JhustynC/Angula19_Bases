@@ -1,0 +1,35 @@
+<h1>HERO COMPONENT</h1>
+<hr>
+
+<div class="container">
+  <table class="table table-dark table-hover">
+    <tbody>
+      <tr>
+        <td class="fw-bold">Nombre:</td>
+        <td>{{ name() }}</td>
+      </tr>
+      <tr>
+        <td class="fw-bold">Edad:</td>
+        <td>{{ age() }}</td>
+      </tr>
+      <tr>
+        <td class="fw-bold">Método:</td>
+        <td>{{ heroDescription() }}</td>
+      </tr>
+      <tr>
+        <td class="fw-bold">Capitalizado:</td>
+        <td>{{ capitalizeName() }}</td>
+      </tr>
+      <tr>
+        <td class="fw-bold">Capitalizado (Pipe):</td>
+        <td>{{ name() | uppercase }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <button (click)="changeHero()" type="button" class="btn btn-primary m-1">Change Hero</button>
+  <button (click)="resetForm()" type="button" class="btn btn-secondary m-1">Reset Hero</button>
+  <button (click)="changeAge(60)" type="button" class="btn btn-success m-1">Change Age</button>
+</div>
