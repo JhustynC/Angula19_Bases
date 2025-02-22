@@ -1,5 +1,12 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "prettier.bracketSpacing": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.trailingComma": "es5",
+  "prettier.endOfLine": "lf",
+  "prettier.bracketSameLine": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.printWidth": 160
 }

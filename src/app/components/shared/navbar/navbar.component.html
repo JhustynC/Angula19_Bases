@@ -1,7 +1,16 @@
 <nav class="nav nav-pills nav-fill">
-  <a class="nav-item nav-link" routerLink="/" routerLinkActive="active"
-    [routerLinkActiveOptions]="{ exact: true }">Counter</a>
-  <a class="nav-item nav-link" routerLink="/hero" routerLinkActive="active"
-    [routerLinkActiveOptions]="{ exact: true }">Hero</a>
+  <a class="nav-item nav-link"
+     routerLink="/"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{ exact: true }">Counter</a>
+  <a class="nav-item nav-link"
+     [routerLink]="['/hero']"
+     [routerLinkActive]="['active']">Hero</a>
+  <a class="nav-item nav-link"
+     [routerLink]="['/dragonball']"
+     [routerLinkActive]="['active']">Dragonball</a>
+  <a class="nav-item nav-link"
+     routerLink="/dragonball-super"
+     routerLinkActive='active'>Dragonball Super</a>
   <!-- Otros enlaces -->
 </nav>
