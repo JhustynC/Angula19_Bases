@@ -3,10 +3,9 @@ import { Character } from '../interfaces/character.interface';
 
 const loadFromLocalStorage = (): Character[] => {
   const characters = localStorage.getItem('characters');
-  if (characters){
-    const localStorageObj = JSON.parse(characters);
-    
-  }
+  // if (characters){
+  //   const localStorageObj = JSON.parse(characters);
+  // }
   return characters ? JSON.parse(characters) : [];
 };
 
